@@ -62,9 +62,13 @@ The goal of SSA’s NEO Segment (SSA-NEO) is to:</p>
 
 Dataset has 10 different columns. I made binary classification model to predict <b><i>hazardous</i></b> output from <i>est_diameter_min</i>, <i>est_diameter_max</i>, <i>relative_velocity</i>, <i>miss_distance</i> and <i>absolute_magnitude</i>.
 
-<p>Dataset on Kaggle:<a href="https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv">neo.csv</a></p>
-<p>NASA API:<a href="https://api.nasa.gov/">api.nasa.gov</a></p>
-<p>NEO Earth Close Approaches:<a href="https://cneos.jpl.nasa.gov/ca/">cneos.jpl.nasa.gov</a></p>
+<p>You can take a look at relevant websites about dataset:</p>
+
+<ul>	
+	<li>Dataset on Kaggle:<a href="https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv">neo.csv</a></li>
+	<li>NASA API:<a href="https://api.nasa.gov/">api.nasa.gov</a></li>
+	<li>NEO Earth Close Approaches:<a href="https://cneos.jpl.nasa.gov/ca/">cneos.jpl.nasa.gov</a></li>
+</ul>
 
 <br>
 
