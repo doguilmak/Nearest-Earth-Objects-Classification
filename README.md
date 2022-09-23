@@ -91,6 +91,6 @@ Dataset has 10 different columns. I made binary classification model to predict 
 <p>If you have something to say to me please contact me:</p>
 
 <ul>
- <li>Twitter: [Doguilmak](https://twitter.com/Doguilmak)</li>
+ <li>Twitter: <a href="https://twitter.com/Doguilmak">Doguilmak</a></li>
  <li>Mail address: doguilmak@gmail.com</li>
 </ul>
