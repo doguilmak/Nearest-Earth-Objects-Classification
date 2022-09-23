@@ -50,7 +50,7 @@ The goal of SSA’s NEO Segment (SSA-NEO) is to:</p>
 
 <p>In this project, binary classification attrition target (class) was estimated with the model (artificial neural networks). We tried to predict Nearest Earth Objects (NEO) class (hazardous or not). All details are in <a href="https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb">NASA_Near_Earth_Objects-ANN_Classification.ipynb</a> file.</p>
 
-<img width=1000 height=350 src="acc_loss.png" alt="loss_and_accuracy">
+<img width=800 height=350 src="acc_loss.png" alt="loss_and_accuracy">
 
 <small><i>Accuracy score: 0.9115566824581304</i></small>
 
