@@ -56,6 +56,8 @@ The goal of SSA’s NEO Segment (SSA-NEO) is to:</p>
 
 <small><i>Accuracy score: 0.9115566824581304</i></small>
 
+<br>
+	
 <h2>Dataset</h2>
 
 Dataset has 10 different columns. I made binary classification model to predict <b><i>hazardous</i></b> output from <i>est_diameter_min</i>, <i>est_diameter_max</i>, <i>relative_velocity</i>, <i>miss_distance</i> and <i>absolute_magnitude</i>.
