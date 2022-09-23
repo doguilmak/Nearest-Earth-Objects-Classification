@@ -60,31 +60,31 @@ The goal of SSA’s NEO Segment (SSA-NEO) is to:</p>
 
 Dataset has 10 different columns. I made binary classification model to predict <b><i>hazardous</i></b> output from <i>est_diameter_min</i>, <i>est_diameter_max</i>, <i>relative_velocity</i>, <i>miss_distance</i> and <i>absolute_magnitude</i>.
 
-Dataset on Kaggle:<a href="https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv">neo.csv</a>
-
-<b>Dataset License</b>
-
-<ul>
-	<li>CC0: Public Domain</li>
-</ul>
+<p>Dataset on Kaggle:<a href="https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv">neo.csv</a></p>
+<p>NASA API:<a href="https://api.nasa.gov/">api.nasa.gov</a></p>
+<p>NEO Earth Close Approaches:<a href="https://cneos.jpl.nasa.gov/ca/">cneos.jpl.nasa.gov</a></p>
 
 <br>
 
-## How to Run Code
+<h2>How to Run Code</h2>
 
-Before running the code make sure that you have these libraries:
+<p>Before running the code make sure that you have these libraries:</p>
 
- - pandas 
- - sklearn
- - warnings
- - matplotlib
- - numpy
- - seaborn
- - keras
+<ul>
+ <li>pandas</li>
+ <li>sklearn</li>
+ <li>warnings</li>
+ <li>matplotlib</li>
+ <li>numpy</li>
+ <li>seaborn</li>
+ <li>keras</li>
+</ul>
 
-## Contact Me
+<h2>Contact Me</h2>
 
-If you have something to say to me please contact me: 
+<p>If you have something to say to me please contact me:</p>
 
- - Twitter: [Doguilmak](https://twitter.com/Doguilmak)  
- - Mail address: doguilmak@gmail.com
+<ul>
+ <li>Twitter: [Doguilmak](https://twitter.com/Doguilmak)</li>
+ <li>Mail address: doguilmak@gmail.com</li>
+</ul>
