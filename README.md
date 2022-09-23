@@ -4,6 +4,8 @@
 
 <small>Picture Source: <a href="https://www.techexplorist.com/wp-content/uploads/2021/12/NASAs-Eyes-on-Asteroids.jpg">Techexplorist</a>
 
+<br>	
+
 <h2>Near-Earth Objects - NEO</h2>
 
 <p>Near-Earth objects (NEOs) are asteroids or comets of sizes ranging from metres to tens of kilometres that orbit the Sun and whose orbits come close to that of Earth’s. Of the more than 600 000 known asteroids in our Solar System, more than 20 000 are NEOs. An example of a NEO is 25143 Itokawa, an object about 300 m in diameter that was visited by the Japanese spacecraft Hayabusa in 2005.</p>
