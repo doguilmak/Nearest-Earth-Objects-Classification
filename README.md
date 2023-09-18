@@ -1,96 +1,86 @@
-**<h1 align=center><font size = 5> Nearest Earth Objects Classification with Artificial Neural Networks</font></h1>**
+<h1 align="center"><font size="5">Predictive Modeling of Near-Earth Objects using Artificial Neural Networks</font></h1>
 
-<img src="https://www.techexplorist.com/wp-content/uploads/2021/12/NASAs-Eyes-on-Asteroids.jpg" alt="Techexplorist">
+<p align="center">
+  <img src="https://www.techexplorist.com/wp-content/uploads/2021/12/NASAs-Eyes-on-Asteroids.jpg" alt="Techexplorist">
+</p>
 
-<small>Picture Source: <a href="https://www.techexplorist.com/wp-content/uploads/2021/12/NASAs-Eyes-on-Asteroids.jpg">Techexplorist</a>
-
-<br>	
-
-<h2>Near-Earth Objects - NEO</h2>
-
-<p>Near-Earth objects (NEOs) are asteroids or comets of sizes ranging from metres to tens of kilometres that orbit the Sun and whose orbits come close to that of Earth’s. Of the more than 600 000 known asteroids in our Solar System, more than 20 000 are NEOs. An example of a NEO is 25143 Itokawa, an object about 300 m in diameter that was visited by the Japanese spacecraft Hayabusa in 2005.</p>
+<p>
+  Picture Source: <a href="https://www.techexplorist.com/wp-content/uploads/2021/12/NASAs-Eyes-on-Asteroids.jpg">Techexplorist</a>
+</p>
 
 <br>
 
-<h2>About NEOs</h2>
+Welcome to the "Predictive Modeling of Near-Earth Objects using Artificial Neural Networks" repository! In this project, we ventured into the fascinating realm of celestial objects and harnessed the power of artificial neural networks to tackle a critical challenge. Our mission? To predict the classification of Near-Earth Objects (NEOs) as either "hazardous" or "non-hazardous." NEOs are asteroids and comets that come close to Earth's orbit, and understanding their potential threat is paramount. With the aid of advanced machine learning techniques, we embarked on a journey to build a predictive model that could identify hazardous NEOs. Armed with data and artificial intelligence, we delved into the cosmos to enhance our ability to safeguard our planet.
 
-<p>NEOs could potentially hit our planet and, depending on their size, produce considerable damage. While the chance of a large object hitting Earth is very small, it would produce a great deal of destruction. NEOs thus merit active detection and tracking efforts.
+## Near-Earth Objects (NEOs)
 
-The goal of SSA’s NEO Segment (SSA-NEO) is to:</p>
+Near-Earth objects (NEOs) are asteroids or comets of various sizes that come close to Earth's orbit. Of the more than 600,000 known asteroids in our Solar System, more than 20,000 are NEOs. These objects can potentially pose a risk to our planet, depending on their size. Understanding NEOs is crucial for planetary defense and space science.
 
-<ul>
-	<li>Become aware of the current and future position of NEOs relative to our planet.</li>
-	<li>Estimate the likelihood of Earth impacts.</li>
-	<li>Assess the consequences of any possible impact.</li>
-	<li>Develop NEO deflection methods.</li>
-</ul>
+## About NEOs
 
-<p>The NEO Segment observes NEOs, predicts their orbits, produces impact warnings when necessary and is involved in potential mitigation measures.</p>
+NEOs could potentially impact our planet, causing varying degrees of damage. While the chance of a large object hitting Earth is small, it could have catastrophic consequences. NEOs are actively monitored and tracked to:
 
-<br>
+- Become aware of the current and future positions of NEOs relative to Earth.
+- Estimate the likelihood of Earth impacts.
+- Assess the consequences of potential impacts.
+- Develop NEO deflection methods.
 
-<h2>Keywords</h2>
+The NEO Segment observes NEOs, predicts their orbits, produces impact warnings when necessary, and participates in potential mitigation measures.
 
-<ul>
-	<li>Classification</li>
-	<li>Science and Technology</li>
-	<li>Astronomy</li>
-	<li>Binary Classification</li>
-	<li>Near-Earth Objects</li>
-	<li>Artificial Neural Networks</li>
-</ul>
+## Keywords
 
-<br>
+- Classification
+- Science and Technology
+- Astronomy
+- Binary Classification
+- Near-Earth Objects
+- Artificial Neural Networks
 
-<h2>Context</h2>
+## Context
 
-<p>There is an infinite number of objects in the outer space. Some of them are closer than we think. Even though we might think that a distance of 70,000 Km can not potentially harm us, but at an astronomical scale, this is a very small distance and can disrupt many natural phenomena. These objects/asteroids can thus prove to be harmful. Hence, it is wise to know what is surrounding us and what can harm us amongst those. Thus, this dataset compiles the list of  <b>NASA</b>  certified asteroids that are classified as the nearest earth object.</p>
+Despite the vast distances in outer space, some objects are closer than we think. A distance of 70,000 kilometers may seem insignificant, but in astronomical terms, it's relatively close and can disrupt natural phenomena. These objects, such as asteroids, have the potential to harm our planet. Hence, it is wise to monitor and understand the NEOs in our vicinity.
 
-<br>
+## Statement
 
-<h2>Statement</h2>
+In this project, we used artificial neural networks (ANNs) to perform binary classification to predict whether Near-Earth Objects (NEOs) are hazardous or not. All the details and code can be found in the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) file.
 
-<p>In this project, binary classification attrition target (class) was estimated with the model (artificial neural networks). We tried to predict Nearest Earth Objects (NEO) class (hazardous or not). All details are in <a href="https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb">NASA_Near_Earth_Objects-ANN_Classification.ipynb</a> file.</p>
+![Accuracy and Loss](acc_loss.png)
 
-<img width=900 height=450 src="acc_loss.png" alt="loss_and_accuracy">
+## Dataset
 
-<small><i>Accuracy score: 0.9115566824581304</i></small>
+The dataset contains 10 different columns. We created a binary classification model to predict the "hazardous" output using features such as estimated diameter, relative velocity, miss distance, and absolute magnitude. For more information about the dataset, you can visit:
 
-<br>
-	
-<h2>Dataset</h2>
+- [Dataset on Kaggle](https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv)
+- [NASA API](https://api.nasa.gov/)
+- [NEO Earth Close Approaches](https://cneos.jpl.nasa.gov/ca/)
 
-Dataset has 10 different columns. I made binary classification model to predict <b><i>hazardous</i></b> output from <i>est_diameter_min</i>, <i>est_diameter_max</i>, <i>relative_velocity</i>, <i>miss_distance</i> and <i>absolute_magnitude</i>.
+## How to Run Notebook
 
-<p>You can take a look at relevant websites about dataset:</p>
+You can run the project by following these steps:
 
-<ul>	
-	<li>Dataset on Kaggle:<a href="https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv">neo.csv</a></li>
-	<li>NASA API:<a href="https://api.nasa.gov/">api.nasa.gov</a></li>
-	<li>NEO Earth Close Approaches:<a href="https://cneos.jpl.nasa.gov/ca/">cneos.jpl.nasa.gov</a></li>
-</ul>
+1. Clone this repository to your local machine.
+2. Open the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) Jupyter Notebook file.
+3. Run the code cells in the notebook to execute the classification model and view the results.
 
-<br>
+## Conclusion
 
-<h2>How to Run Code</h2>
+The binary classification model trained to predict whether Near-Earth Objects (NEOs) are hazardous or not has yielded promising results. The evaluation metrics reveal the following key insights:
 
-<p>Before running the code make sure that you have these libraries:</p>
+-   **Accuracy**: The model achieved an accuracy score of approximately 87.92%, indicating that it correctly classified a significant portion of NEOs.
+    
+-   **Precision**: With a precision score of approximately 81.16%, the model demonstrates its ability to identify hazardous NEOs with a relatively low rate of false positives. This is essential for ensuring that resources are appropriately allocated to address potential threats.
+    
+-   **Recall**: The recall score, measuring around 98.76%, signifies the model's effectiveness in capturing a vast majority of actual hazardous NEOs. It minimizes the risk of failing to detect dangerous objects.
+    
+-   **Specificity**: The specificity score of approximately 77.09% reflects the model's capability to correctly identify non-hazardous NEOs. This is crucial for preventing unnecessary alarm or resource allocation for harmless objects.
+    
+-   **F1 Score**: The F1 score, which combines precision and recall, stands at approximately 89.10%. This balanced metric highlights the model's ability to strike a compromise between minimizing false alarms and ensuring high detection rates.
 
-<ul>
- <li>pandas</li>
- <li>sklearn</li>
- <li>warnings</li>
- <li>matplotlib</li>
- <li>numpy</li>
- <li>seaborn</li>
- <li>keras</li>
-</ul>
+In summary, the classification model, leveraging Artificial Neural Networks (ANNs), demonstrates a solid performance in identifying hazardous Near-Earth Objects. Its accuracy, precision, and recall indicate its potential utility in early detection and tracking efforts, contributing to the ongoing mission of safeguarding our planet from potential impacts.
 
-<h2>Contact Me</h2>
+## Contact Me
 
-<p>If you have something to say to me please contact me:</p>
+If you have any questions, feedback, or suggestions, please feel free to reach out:
 
-<ul>
- <li>Twitter: <a href="https://twitter.com/Doguilmak">Doguilmak</a></li>
- <li>Mail address: doguilmak@gmail.com</li>
-</ul>
+- Twitter: [@Doguilmak](https://twitter.com/Doguilmak)
+- Email: doguilmak@gmail.com
