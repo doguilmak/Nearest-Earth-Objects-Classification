@@ -48,7 +48,7 @@ Despite the vast distances in outer space, some objects are closer than we think
 
 ## Statement
 
-In this project, we used artificial neural networks (ANNs) to perform binary classification to predict whether Near-Earth Objects (NEOs) are hazardous or not. All the details and code can be found in the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) file.
+In this project, we used artificial neural networks (ANNs) to perform binary classification to predict whether Near-Earth Objects (NEOs) are hazardous or not. All the details and code can be found in the [NASA_NEOs_ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_NEOs_ANN_Classification.ipynb) file.
 
 ![Accuracy and Loss](acc_loss.png)
 
