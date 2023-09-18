@@ -72,6 +72,8 @@ You can run the project by following these steps:
 2. Open the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) Jupyter Notebook file.
 3. Run the code cells in the notebook to execute the classification model and view the results.
 
+<br>
+
 ## Conclusion
 
 The binary classification model trained to predict whether Near-Earth Objects (NEOs) are hazardous or not has yielded promising results. The evaluation metrics reveal the following key insights:
