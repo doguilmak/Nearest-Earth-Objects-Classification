@@ -12,6 +12,8 @@
 
 Welcome to the "Predictive Modeling of Near-Earth Objects using Artificial Neural Networks" repository! In this project, we ventured into the fascinating realm of celestial objects and harnessed the power of artificial neural networks to tackle a critical challenge. Our mission? To predict the classification of Near-Earth Objects (NEOs) as either "hazardous" or "non-hazardous." NEOs are asteroids and comets that come close to Earth's orbit, and understanding their potential threat is paramount. With the aid of advanced machine learning techniques, we embarked on a journey to build a predictive model that could identify hazardous NEOs. Armed with data and artificial intelligence, we delved into the cosmos to enhance our ability to safeguard our planet.
 
+<br>
+
 ## Near-Earth Objects (NEOs)
 
 Near-Earth objects (NEOs) are asteroids or comets of various sizes that come close to Earth's orbit. Of the more than 600,000 known asteroids in our Solar System, more than 20,000 are NEOs. These objects can potentially pose a risk to our planet, depending on their size. Understanding NEOs is crucial for planetary defense and space science.
@@ -36,15 +38,21 @@ The NEO Segment observes NEOs, predicts their orbits, produces impact warnings w
 - Near-Earth Objects
 - Artificial Neural Networks
 
+<br>
+
 ## Context
 
 Despite the vast distances in outer space, some objects are closer than we think. A distance of 70,000 kilometers may seem insignificant, but in astronomical terms, it's relatively close and can disrupt natural phenomena. These objects, such as asteroids, have the potential to harm our planet. Hence, it is wise to monitor and understand the NEOs in our vicinity.
+
+<br>
 
 ## Statement
 
 In this project, we used artificial neural networks (ANNs) to perform binary classification to predict whether Near-Earth Objects (NEOs) are hazardous or not. All the details and code can be found in the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) file.
 
 ![Accuracy and Loss](acc_loss.png)
+
+<br>
 
 ## Dataset
 
@@ -53,6 +61,8 @@ The dataset contains 10 different columns. We created a binary classification mo
 - [Dataset on Kaggle](https://www.kaggle.com/datasets/sameepvani/nasa-nearest-earth-objects?select=neo.csv)
 - [NASA API](https://api.nasa.gov/)
 - [NEO Earth Close Approaches](https://cneos.jpl.nasa.gov/ca/)
+
+<br>
 
 ## How to Run Notebook
 
