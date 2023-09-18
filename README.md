@@ -69,7 +69,7 @@ The dataset contains 10 different columns. We created a binary classification mo
 You can run the project by following these steps:
 
 1. Clone this repository to your local machine.
-2. Open the [NASA_Near_Earth_Objects-ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_Near_Earth_Objects-ANN_Classification.ipynb) Jupyter Notebook file.
+2. Open the [NASA_NEOs_ANN_Classification.ipynb](https://github.com/doguilmak/Nearest-Earth-Objects-Classification/blob/main/NASA_NEOs_ANN_Classification.ipynb) Jupyter Notebook file.
 3. Run the code cells in the notebook to execute the classification model and view the results.
 
 <br>
